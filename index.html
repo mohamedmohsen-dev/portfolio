@@ -10,7 +10,7 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Tajawal:wght@500;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Cairo:wght@400;600;800&family=Inter:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 { "@context": "https://schema.org", "@type": "Person", "name": "Mohamed Mohsen", "jobTitle": "Flutter Developer",
@@ -34,7 +34,7 @@
     </nav>
     <div class="tools">
       <button class="tool" id="lang-btn" type="button" aria-label="Switch language">عربي</button>
-      <button class="tool" id="theme-btn" type="button" aria-label="Switch theme">Dark</button>
+      <button class="tool" id="theme-btn" type="button" aria-label="Switch theme">☾</button>
     </div>
   </div>
 </header>
@@ -43,38 +43,40 @@
 
 <!-- HERO -->
 <section class="hero">
+  <div class="spot" id="spot"></div>
   <div class="container hero-grid">
     <div>
-      <span class="label reveal"><span class="en">Flutter developer, Cairo</span><span class="ar">مطوّر Flutter، القاهرة</span></span>
-      <h1 class="reveal" style="--i:1"><span class="en">I build <mark>Flutter apps</mark> for Android and iOS.</span><span class="ar">أبني <mark>تطبيقات Flutter</mark> لنظامي Android وiOS.</span></h1>
+      <span class="kicker reveal"><i></i><span class="en">Flutter Developer · Cairo, Egypt</span><span class="ar">مطوّر Flutter · القاهرة، مصر</span></span>
+      <h1 class="reveal" style="--i:1"><span class="en">I build <span class="grad">Flutter apps</span> for Android and iOS.</span><span class="ar">أبني <span class="grad">تطبيقات Flutter</span> لنظامي Android وiOS.</span></h1>
       <p class="lead reveal" style="--i:2"><span class="en">I'm Mohamed Mohsen. I build Android and iOS apps with clean architecture and offline sync, and I fix the bugs that only show up with real users.</span><span class="ar">أنا محمد محسن. أبني تطبيقات Android وiOS بمعمارية نظيفة ومزامنة تعمل دون إنترنت، وأصلح الأخطاء التي لا تظهر إلا مع المستخدمين الحقيقيين.</span></p>
       <div class="cta reveal" style="--i:3">
         <a class="btn primary" href="Mohamed-Mohsen-CV.pdf" download><span class="en">Download CV</span><span class="ar">تحميل السيرة الذاتية</span></a>
-        <a class="btn" href="#apps"><span class="en">See the apps</span><span class="ar">شاهد التطبيقات</span></a>
         <a class="btn" href="https://www.linkedin.com/in/mohamed-mohsen-6881082a6" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn" href="https://github.com/mohamedmohsen-dev" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
 
     <div class="stage" id="stage" aria-hidden="true">
-      <div class="block"></div>
       <div class="pw b"><div class="phone"><img src="geelgo-2.jpg" alt="" loading="eager"></div></div>
       <div class="pw c"><div class="phone"><img src="elite-stock-3.jpg" alt="" loading="eager"></div></div>
       <div class="pw a"><div class="phone"><img src="skp-4.jpg" alt="" loading="eager"></div></div>
-      <div class="sticker"><div><b>7</b><span class="en">apps live</span><span class="ar">تطبيقات منشورة</span></div></div>
+      <span class="chip-float c1">Flutter · <b>Dart</b></span>
+      <span class="chip-float c2">Cubit / <b>BLoC</b></span>
+      <span class="chip-float c3"><span class="en">Offline-first</span><span class="ar">يعمل دون إنترنت</span></span>
     </div>
   </div>
 </section>
 
-<div class="marquee" aria-label="Apps">
-  <div class="track"><span class="item"><img src="skp.jpg" alt="" width="34" height="34">SKP Real Estate</span><span class="item"><img src="ecopeace.jpg" alt="" width="34" height="34">EcoPeace</span><span class="item"><img src="dadsters.png" alt="" width="34" height="34">Sooq Dadsters</span><span class="item"><img src="geelgo.png" alt="" width="34" height="34">Geelgo</span><span class="item"><img src="geelgo-driver.png" alt="" width="34" height="34">Geelgo Driver</span><span class="item"><img src="najeeb.jpg" alt="" width="34" height="34">Najeeb</span><span class="item"><img src="elite-stock.jpg" alt="" width="34" height="34">Elite Stock</span><span class="item"><img src="skp.jpg" alt="" width="34" height="34">SKP Real Estate</span><span class="item"><img src="ecopeace.jpg" alt="" width="34" height="34">EcoPeace</span><span class="item"><img src="dadsters.png" alt="" width="34" height="34">Sooq Dadsters</span><span class="item"><img src="geelgo.png" alt="" width="34" height="34">Geelgo</span><span class="item"><img src="geelgo-driver.png" alt="" width="34" height="34">Geelgo Driver</span><span class="item"><img src="najeeb.jpg" alt="" width="34" height="34">Najeeb</span><span class="item"><img src="elite-stock.jpg" alt="" width="34" height="34">Elite Stock</span></div>
+<div class="marquee">
+  <div class="marquee-label"><span class="en">Apps I worked on, live on Google Play and the App Store</span><span class="ar">تطبيقات اشتغلت عليها ومنشورة على Google Play وApp Store</span></div>
+  <div class="track"><span class="item"><img src="skp.jpg" alt="" width="40" height="40">SKP Real Estate</span><span class="item"><img src="ecopeace.jpg" alt="" width="40" height="40">EcoPeace</span><span class="item"><img src="dadsters.png" alt="" width="40" height="40">Sooq Dadsters</span><span class="item"><img src="geelgo.png" alt="" width="40" height="40">Geelgo</span><span class="item"><img src="geelgo-driver.png" alt="" width="40" height="40">Geelgo Driver</span><span class="item"><img src="najeeb.jpg" alt="" width="40" height="40">Najeeb</span><span class="item"><img src="elite-stock.jpg" alt="" width="40" height="40">Elite Stock</span><span class="item"><img src="skp.jpg" alt="" width="40" height="40">SKP Real Estate</span><span class="item"><img src="ecopeace.jpg" alt="" width="40" height="40">EcoPeace</span><span class="item"><img src="dadsters.png" alt="" width="40" height="40">Sooq Dadsters</span><span class="item"><img src="geelgo.png" alt="" width="40" height="40">Geelgo</span><span class="item"><img src="geelgo-driver.png" alt="" width="40" height="40">Geelgo Driver</span><span class="item"><img src="najeeb.jpg" alt="" width="40" height="40">Najeeb</span><span class="item"><img src="elite-stock.jpg" alt="" width="40" height="40">Elite Stock</span></div>
 </div>
 
 <!-- ABOUT -->
 <section id="about" class="about">
   <div class="container">
     <div class="about-grid">
-      <div><span class="label"><span class="en">About</span><span class="ar">نبذة</span></span><h2><span class="en">Two years of Flutter, built on Java.</span><span class="ar">سنتان من Flutter فوق خلفية Java.</span></h2></div>
+      <div><span class="eyebrow"><span class="en">About</span><span class="ar">نبذة</span></span><h2><span class="en">Two years of Flutter, built on Java.</span><span class="ar">سنتان من Flutter فوق خلفية Java.</span></h2></div>
       <div class="reveal">
         <p><span class="en">I'm a Flutter developer with about two years of experience building and maintaining Android and iOS apps, and two and a half years of Java development before that.</span><span class="ar">أنا مطوّر Flutter بخبرة تقارب سنتين في بناء وصيانة تطبيقات Android وiOS، وسبقتها سنتان ونصف في تطوير Java.</span></p>
         <p><span class="en">I have built apps from scratch, including an internal operations app with barcode scanning, a vendor management app, and a real estate app. I have also taken over live apps in ride-hailing, e-commerce, and education, fixing production issues such as race conditions, stale API responses, and map location errors, and writing tests so the same bugs do not come back.</span><span class="ar">بنيت تطبيقات من الصفر، منها تطبيق عمليات داخلي يعتمد على مسح الباركود، وتطبيق لإدارة الموردين، وتطبيق عقارات. وتسلّمت أيضاً تطبيقات تعمل فعلياً في مجالات التوصيل والتجارة الإلكترونية والتعليم، وأصلحت مشاكل الإنتاج مثل تعارض الطلبات وردود الـ API القديمة وأخطاء الخرائط، وكتبت اختبارات حتى لا تعود المشاكل نفسها.</span></p>
@@ -85,18 +87,18 @@
         </div>
       </div>
     </div>
-    <div class="stats reveal">
-      <div class="stat"><b data-count="7">0</b><span><span class="en">apps on Google Play and the App Store</span><span class="ar">تطبيقات على Google Play وApp Store</span></span></div>
-      <div class="stat"><b><span data-count="2">0</span>+</b><span><span class="en">years building with Flutter</span><span class="ar">سنوات مع Flutter</span></span></div>
-      <div class="stat"><b data-count="194">0</b><span><span class="en">tests passing in one app I helped fix</span><span class="ar">اختباراً ناجحاً في تطبيق ساهمت في إصلاحه</span></span></div>
-      <div class="stat"><b data-count="2">0</b><span><span class="en">languages with full RTL support</span><span class="ar">لغتان بدعم كامل للـ RTL</span></span></div>
+    <div class="stats">
+      <div class="stat reveal" style="--i:0"><b data-count="7">0</b><span><span class="en">apps on Google Play and the App Store</span><span class="ar">تطبيقات على Google Play وApp Store</span></span></div>
+      <div class="stat reveal" style="--i:1"><b><span data-count="2">0</span>+</b><span><span class="en">years building with Flutter</span><span class="ar">سنوات مع Flutter</span></span></div>
+      <div class="stat reveal" style="--i:2"><b data-count="194">0</b><span><span class="en">tests passing in one app I helped fix</span><span class="ar">اختباراً ناجحاً في تطبيق ساهمت في إصلاحه</span></span></div>
+      <div class="stat reveal" style="--i:3"><b data-count="2">0</b><span><span class="en">languages with full RTL support</span><span class="ar">لغتان بدعم كامل للـ RTL</span></span></div>
     </div>
   </div>
 </section>
 
 <section id="apps">
   <div class="container">
-    <span class="label"><span class="en">Apps</span><span class="ar">التطبيقات</span></span><h2><span class="en">Apps I worked on</span><span class="ar">تطبيقات اشتغلت عليها</span></h2>
+    <h2><span class="en">Apps I worked on</span><span class="ar">تطبيقات اشتغلت عليها</span></h2>
     <p class="section-sub">
       <span class="en">Published apps I built or maintained. Company code is private, so this section shows what each app does and what I did.</span>
       <span class="ar">تطبيقات منشورة بنيتها أو صنتها. كود الشركات خاص، فهذا القسم يشرح ما يفعله كل تطبيق ودوري فيه.</span>
@@ -260,7 +262,7 @@
 
 <section id="projects">
   <div class="container">
-    <span class="label"><span class="en">Projects</span><span class="ar">المشاريع</span></span><h2><span class="en">Projects</span><span class="ar">مشاريعي</span></h2>
+    <h2><span class="en">Projects</span><span class="ar">مشاريعي</span></h2>
     <p class="section-sub"><span class="en">Personal projects with public code.</span><span class="ar">مشاريع شخصية بكود مفتوح.</span></p>
     <div class="grid">
       <article class="card reveal">
@@ -304,13 +306,17 @@
 <!-- EXPERIENCE -->
 <section id="experience">
   <div class="container">
-    <span class="label"><span class="en">Experience</span><span class="ar">الخبرة</span></span>
+    <span class="eyebrow"><span class="en">Experience</span><span class="ar">الخبرة</span></span>
     <h2><span class="en">Where I have worked</span><span class="ar">أماكن عملت فيها</span></h2>
-    <div class="timeline">
-      <div class="tl-item reveal"><div class="when"><span class="en">Jun 2025 – Present</span><span class="ar">يونيو 2025 – الآن</span></div><div><h3><span class="en">Flutter Developer</span><span class="ar">مطوّر Flutter</span> · Bishyaka</h3><p><span class="en">Built an internal operations app with barcode scanning and a vendor management app, integrated Meta and Google services for product data, and customized a Laravel POS.</span><span class="ar">بنيت تطبيق عمليات داخلي بمسح الباركود وتطبيقاً لإدارة الموردين، وربطت بيانات المنتجات بخدمات Meta وGoogle، وعدّلت نظام نقاط بيع Laravel.</span></p></div></div>
-      <div class="tl-item reveal"><div class="when"><span class="en">Jul – Oct 2026</span><span class="ar">يوليو – أكتوبر 2026</span></div><div><h3><span class="en">Freelance Flutter Developer</span><span class="ar">مطوّر Flutter (عمل حر)</span></h3><p><span class="en">Built features and fixed production issues across several published apps, and added unit and regression tests.</span><span class="ar">طوّرت ميزات وأصلحت مشاكل إنتاج في عدة تطبيقات منشورة، وأضفت اختبارات وحدة وانحدار.</span></p></div></div>
-      <div class="tl-item reveal"><div class="when"><span class="en">Dec 2024 – Jun 2025</span><span class="ar">ديسمبر 2024 – يونيو 2025</span></div><div><h3><span class="en">Flutter Developer</span><span class="ar">مطوّر Flutter</span> · SKP</h3><p><span class="en">Built and maintained Flutter apps for Android and iOS, published to Google Play and the App Store.</span><span class="ar">بنيت وصنت تطبيقات Flutter لـ Android وiOS ونشرتها على Google Play وApp Store.</span></p></div></div>
-      <div class="tl-item reveal"><div class="when"><span class="en">Jun 2022 – Dec 2024</span><span class="ar">يونيو 2022 – ديسمبر 2024</span></div><div><h3><span class="en">Java Developer</span><span class="ar">مطوّر Java</span> · Alpha Misr</h3><p><span class="en">Developed and maintained Java applications with OOP, JDBC and SQL.</span><span class="ar">طوّرت وصنت تطبيقات Java باستخدام OOP وJDBC وSQL.</span></p></div></div>
+    <div class="timeline" id="timeline">
+      <div class="tl-item reveal"><h3><span class="en">Flutter Developer</span><span class="ar">مطوّر Flutter</span> · Bishyaka</h3><div class="when"><span class="en">Jun 2025 – Present</span><span class="ar">يونيو 2025 – الآن</span></div>
+        <p><span class="en">Built an internal operations app with barcode scanning and a vendor management app, integrated Meta and Google services for product data, and customized a Laravel POS.</span><span class="ar">بنيت تطبيق عمليات داخلي بمسح الباركود وتطبيقاً لإدارة الموردين، وربطت بيانات المنتجات بخدمات Meta وGoogle، وعدّلت نظام نقاط بيع Laravel.</span></p></div>
+      <div class="tl-item reveal"><h3><span class="en">Freelance Flutter Developer</span><span class="ar">مطوّر Flutter (عمل حر)</span></h3><div class="when"><span class="en">Jul – Oct 2026</span><span class="ar">يوليو – أكتوبر 2026</span></div>
+        <p><span class="en">Built features and fixed production issues across several published apps, and added unit and regression tests.</span><span class="ar">طوّرت ميزات وأصلحت مشاكل إنتاج في عدة تطبيقات منشورة، وأضفت اختبارات وحدة وانحدار.</span></p></div>
+      <div class="tl-item reveal"><h3><span class="en">Flutter Developer</span><span class="ar">مطوّر Flutter</span> · SKP</h3><div class="when"><span class="en">Dec 2024 – Jun 2025</span><span class="ar">ديسمبر 2024 – يونيو 2025</span></div>
+        <p><span class="en">Built and maintained Flutter apps for Android and iOS, published to Google Play and the App Store.</span><span class="ar">بنيت وصنت تطبيقات Flutter لـ Android وiOS ونشرتها على Google Play وApp Store.</span></p></div>
+      <div class="tl-item reveal"><h3><span class="en">Java Developer</span><span class="ar">مطوّر Java</span> · Alpha Misr</h3><div class="when"><span class="en">Jun 2022 – Dec 2024</span><span class="ar">يونيو 2022 – ديسمبر 2024</span></div>
+        <p><span class="en">Developed and maintained Java applications with OOP, JDBC and SQL.</span><span class="ar">طوّرت وصنت تطبيقات Java باستخدام OOP وJDBC وSQL.</span></p></div>
     </div>
   </div>
 </section>
@@ -318,7 +324,7 @@
 <!-- SKILLS -->
 <section id="skills">
   <div class="container">
-    <span class="label"><span class="en">Skills</span><span class="ar">المهارات</span></span>
+    <span class="eyebrow"><span class="en">Skills</span><span class="ar">المهارات</span></span>
     <h2><span class="en">Tools I work with</span><span class="ar">أدوات أعمل بها</span></h2>
     <div class="skills">
       <div class="reveal"><h3><span class="en">Mobile</span><span class="ar">الموبايل</span></h3><div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">Cubit / BLoC</span><span class="chip">Provider / Riverpod</span><span class="chip">MVVM</span><span class="chip">Localization / RTL</span></div></div>
@@ -330,16 +336,17 @@
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="contact">
+<section id="contact">
   <div class="container">
-    <span class="label"><span class="en">Contact</span><span class="ar">تواصل</span></span>
-    <h2 class="reveal"><span class="en">Let's build something solid.</span><span class="ar">لنبنِ شيئاً متيناً.</span></h2>
-    <p class="reveal" style="--i:1"><span class="en">Email works best. I reply as soon as I can.</span><span class="ar">البريد الإلكتروني هو الأفضل، وأرد بأسرع وقت.</span></p>
-    <a class="mailbig reveal" style="--i:2" href="mailto:mohamedmohsen8901@gmail.com">mohamedmohsen8901@gmail.com</a>
-    <div class="contact-links">
-      <button class="btn" id="copy-mail" type="button"><span class="en">Copy email</span><span class="ar">نسخ الإيميل</span></button>
-      <a class="btn" href="https://www.linkedin.com/in/mohamed-mohsen-6881082a6" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn" href="https://github.com/mohamedmohsen-dev" target="_blank" rel="noopener">GitHub</a>
+    <div class="contact-card reveal">
+      <h2><span class="en">Let's build something solid.</span><span class="ar">لنبنِ شيئاً متيناً.</span></h2>
+      <p><span class="en">Email works best. I reply as soon as I can.</span><span class="ar">البريد الإلكتروني هو الأفضل، وأرد بأسرع وقت.</span></p>
+      <div class="contact-links">
+        <a class="btn primary mail" href="mailto:mohamedmohsen8901@gmail.com">mohamedmohsen8901@gmail.com</a>
+        <button class="btn" id="copy-mail" type="button"><span class="en">Copy email</span><span class="ar">نسخ الإيميل</span></button>
+        <a class="btn" href="https://www.linkedin.com/in/mohamed-mohsen-6881082a6" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/mohamedmohsen-dev" target="_blank" rel="noopener">GitHub</a>
+      </div>
     </div>
   </div>
 </section>
