@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mohamed Mohsen | Flutter Developer</title>
-<meta name="description" content="Flutter developer in Cairo. Clean architecture, offline sync, 7 published apps, and interactive demos of the production bugs I fixed.">
+<meta name="description" content="Flutter developer in Cairo. Clean architecture, offline sync, and 7 apps published on Google Play and the App Store.">
 <meta property="og:title" content="Mohamed Mohsen | Flutter Developer">
-<meta property="og:description" content="Flutter apps that hold up in production: clean architecture, offline sync, published on Google Play and the App Store.">
+<meta property="og:description" content="Flutter apps that survive production: clean architecture, offline sync, published on Google Play and the App Store.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Cairo:wght@400;600;800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Tajawal:wght@500;700;800&display=swap">
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 { "@context": "https://schema.org", "@type": "Person", "name": "Mohamed Mohsen", "jobTitle": "Flutter Developer",
@@ -27,7 +27,6 @@
     <nav class="nav-links" aria-label="Sections">
       <a href="#about"><span class="en">About</span><span class="ar">نبذة</span></a>
       <a href="#apps"><span class="en">Apps</span><span class="ar">التطبيقات</span></a>
-      <a href="#demos"><span class="en">Live demos</span><span class="ar">تجارب حيّة</span></a>
       <a href="#projects" id="nav-projects"><span class="en">Projects</span><span class="ar">المشاريع</span></a>
       <a href="#experience"><span class="en">Experience</span><span class="ar">الخبرة</span></a>
       <a href="#skills"><span class="en">Skills</span><span class="ar">المهارات</span></a>
@@ -35,7 +34,7 @@
     </nav>
     <div class="tools">
       <button class="tool" id="lang-btn" type="button" aria-label="Switch language">عربي</button>
-      <button class="tool" id="theme-btn" type="button" aria-label="Switch theme">☾</button>
+      <button class="tool" id="theme-btn" type="button" aria-label="Switch theme">Dark</button>
     </div>
   </div>
 </header>
@@ -44,41 +43,38 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="spot" id="spot"></div>
   <div class="container hero-grid">
     <div>
-      <span class="kicker reveal"><i></i><span class="en">Flutter Developer · Cairo, Egypt</span><span class="ar">مطوّر Flutter · القاهرة، مصر</span></span>
-      <h1 class="reveal" style="--i:1"><span class="en">Flutter apps that <span class="grad">hold up</span> in production.</span><span class="ar">تطبيقات Flutter <span class="grad">تصمد</span> في الإنتاج.</span></h1>
+      <span class="label reveal"><span class="en">Flutter developer, Cairo</span><span class="ar">مطوّر Flutter، القاهرة</span></span>
+      <h1 class="reveal" style="--i:1"><span class="en">Flutter apps that <mark>survive</mark> production.</span><span class="ar">تطبيقات Flutter <mark>تنجو</mark> من الإنتاج.</span></h1>
       <p class="lead reveal" style="--i:2"><span class="en">I'm Mohamed Mohsen. I build Android and iOS apps with clean architecture and offline sync, and I fix the bugs that only show up with real users.</span><span class="ar">أنا محمد محسن. أبني تطبيقات Android وiOS بمعمارية نظيفة ومزامنة تعمل دون إنترنت، وأصلح الأخطاء التي لا تظهر إلا مع المستخدمين الحقيقيين.</span></p>
       <div class="cta reveal" style="--i:3">
         <a class="btn primary" href="Mohamed-Mohsen-CV.pdf" download><span class="en">Download CV</span><span class="ar">تحميل السيرة الذاتية</span></a>
-        <a class="btn" href="#demos"><span class="en">Try the live demos</span><span class="ar">جرّب التجارب الحيّة</span></a>
+        <a class="btn" href="#apps"><span class="en">See the apps</span><span class="ar">شاهد التطبيقات</span></a>
         <a class="btn" href="https://www.linkedin.com/in/mohamed-mohsen-6881082a6" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn" href="https://github.com/mohamedmohsen-dev" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
 
     <div class="stage" id="stage" aria-hidden="true">
+      <div class="block"></div>
       <div class="pw b"><div class="phone"><img src="geelgo-2.jpg" alt="" loading="eager"></div></div>
       <div class="pw c"><div class="phone"><img src="elite-stock-3.jpg" alt="" loading="eager"></div></div>
       <div class="pw a"><div class="phone"><img src="skp-4.jpg" alt="" loading="eager"></div></div>
-      <span class="chip-float c1">Flutter · <b>Dart</b></span>
-      <span class="chip-float c2">Cubit / <b>BLoC</b></span>
-      <span class="chip-float c3"><span class="en">Offline-first</span><span class="ar">يعمل دون إنترنت</span></span>
+      <div class="sticker"><div><b>7</b><span class="en">apps live</span><span class="ar">تطبيقات منشورة</span></div></div>
     </div>
   </div>
 </section>
 
-<div class="marquee">
-  <div class="marquee-label"><span class="en">Apps I worked on, live on Google Play and the App Store</span><span class="ar">تطبيقات اشتغلت عليها ومنشورة على Google Play وApp Store</span></div>
-  <div class="track"><span class="item"><img src="skp.jpg" alt="" width="40" height="40">SKP Real Estate</span><span class="item"><img src="ecopeace.jpg" alt="" width="40" height="40">EcoPeace</span><span class="item"><img src="dadsters.png" alt="" width="40" height="40">Sooq Dadsters</span><span class="item"><img src="geelgo.png" alt="" width="40" height="40">Geelgo</span><span class="item"><img src="geelgo-driver.png" alt="" width="40" height="40">Geelgo Driver</span><span class="item"><img src="najeeb.jpg" alt="" width="40" height="40">Najeeb</span><span class="item"><img src="elite-stock.jpg" alt="" width="40" height="40">Elite Stock</span><span class="item"><img src="skp.jpg" alt="" width="40" height="40">SKP Real Estate</span><span class="item"><img src="ecopeace.jpg" alt="" width="40" height="40">EcoPeace</span><span class="item"><img src="dadsters.png" alt="" width="40" height="40">Sooq Dadsters</span><span class="item"><img src="geelgo.png" alt="" width="40" height="40">Geelgo</span><span class="item"><img src="geelgo-driver.png" alt="" width="40" height="40">Geelgo Driver</span><span class="item"><img src="najeeb.jpg" alt="" width="40" height="40">Najeeb</span><span class="item"><img src="elite-stock.jpg" alt="" width="40" height="40">Elite Stock</span></div>
+<div class="marquee" aria-label="Apps">
+  <div class="track"><span class="item"><img src="skp.jpg" alt="" width="34" height="34">SKP Real Estate</span><span class="item"><img src="ecopeace.jpg" alt="" width="34" height="34">EcoPeace</span><span class="item"><img src="dadsters.png" alt="" width="34" height="34">Sooq Dadsters</span><span class="item"><img src="geelgo.png" alt="" width="34" height="34">Geelgo</span><span class="item"><img src="geelgo-driver.png" alt="" width="34" height="34">Geelgo Driver</span><span class="item"><img src="najeeb.jpg" alt="" width="34" height="34">Najeeb</span><span class="item"><img src="elite-stock.jpg" alt="" width="34" height="34">Elite Stock</span><span class="item"><img src="skp.jpg" alt="" width="34" height="34">SKP Real Estate</span><span class="item"><img src="ecopeace.jpg" alt="" width="34" height="34">EcoPeace</span><span class="item"><img src="dadsters.png" alt="" width="34" height="34">Sooq Dadsters</span><span class="item"><img src="geelgo.png" alt="" width="34" height="34">Geelgo</span><span class="item"><img src="geelgo-driver.png" alt="" width="34" height="34">Geelgo Driver</span><span class="item"><img src="najeeb.jpg" alt="" width="34" height="34">Najeeb</span><span class="item"><img src="elite-stock.jpg" alt="" width="34" height="34">Elite Stock</span></div>
 </div>
 
 <!-- ABOUT -->
 <section id="about" class="about">
   <div class="container">
     <div class="about-grid">
-      <div><span class="eyebrow"><span class="en">About</span><span class="ar">نبذة</span></span><h2><span class="en">Two years of Flutter, built on Java.</span><span class="ar">سنتان من Flutter فوق خلفية Java.</span></h2></div>
+      <div><span class="label"><span class="en">About</span><span class="ar">نبذة</span></span><h2><span class="en">Two years of Flutter, built on Java.</span><span class="ar">سنتان من Flutter فوق خلفية Java.</span></h2></div>
       <div class="reveal">
         <p><span class="en">I'm a Flutter developer with about two years of experience building and maintaining Android and iOS apps, and two and a half years of Java development before that.</span><span class="ar">أنا مطوّر Flutter بخبرة تقارب سنتين في بناء وصيانة تطبيقات Android وiOS، وسبقتها سنتان ونصف في تطوير Java.</span></p>
         <p><span class="en">I have built apps from scratch, including an internal operations app with barcode scanning, a vendor management app, and a real estate app. I have also taken over live apps in ride-hailing, e-commerce, and education, fixing production issues such as race conditions, stale API responses, and map location errors, and writing tests so the same bugs do not come back.</span><span class="ar">بنيت تطبيقات من الصفر، منها تطبيق عمليات داخلي يعتمد على مسح الباركود، وتطبيق لإدارة الموردين، وتطبيق عقارات. وتسلّمت أيضاً تطبيقات تعمل فعلياً في مجالات التوصيل والتجارة الإلكترونية والتعليم، وأصلحت مشاكل الإنتاج مثل تعارض الطلبات وردود الـ API القديمة وأخطاء الخرائط، وكتبت اختبارات حتى لا تعود المشاكل نفسها.</span></p>
@@ -89,18 +85,18 @@
         </div>
       </div>
     </div>
-    <div class="stats">
-      <div class="stat reveal" style="--i:0"><b data-count="7">0</b><span><span class="en">apps on Google Play and the App Store</span><span class="ar">تطبيقات على Google Play وApp Store</span></span></div>
-      <div class="stat reveal" style="--i:1"><b><span data-count="2">0</span>+</b><span><span class="en">years building with Flutter</span><span class="ar">سنوات مع Flutter</span></span></div>
-      <div class="stat reveal" style="--i:2"><b data-count="194">0</b><span><span class="en">tests passing in one app I helped fix</span><span class="ar">اختباراً ناجحاً في تطبيق ساهمت في إصلاحه</span></span></div>
-      <div class="stat reveal" style="--i:3"><b data-count="2">0</b><span><span class="en">languages with full RTL support</span><span class="ar">لغتان بدعم كامل للـ RTL</span></span></div>
+    <div class="stats reveal">
+      <div class="stat"><b data-count="7">0</b><span><span class="en">apps on Google Play and the App Store</span><span class="ar">تطبيقات على Google Play وApp Store</span></span></div>
+      <div class="stat"><b><span data-count="2">0</span>+</b><span><span class="en">years building with Flutter</span><span class="ar">سنوات مع Flutter</span></span></div>
+      <div class="stat"><b data-count="194">0</b><span><span class="en">tests passing in one app I helped fix</span><span class="ar">اختباراً ناجحاً في تطبيق ساهمت في إصلاحه</span></span></div>
+      <div class="stat"><b data-count="2">0</b><span><span class="en">languages with full RTL support</span><span class="ar">لغتان بدعم كامل للـ RTL</span></span></div>
     </div>
   </div>
 </section>
 
 <section id="apps">
   <div class="container">
-    <h2><span class="en">Apps I worked on</span><span class="ar">تطبيقات اشتغلت عليها</span></h2>
+    <span class="label"><span class="en">Apps</span><span class="ar">التطبيقات</span></span><h2><span class="en">Apps I worked on</span><span class="ar">تطبيقات اشتغلت عليها</span></h2>
     <p class="section-sub">
       <span class="en">Published apps I built or maintained. Company code is private, so this section shows what each app does and what I did.</span>
       <span class="ar">تطبيقات منشورة بنيتها أو صنتها. كود الشركات خاص، فهذا القسم يشرح ما يفعله كل تطبيق ودوري فيه.</span>
@@ -262,98 +258,9 @@
   </div>
 </section>
 
-<!-- LIVE DEMOS -->
-<section id="demos" class="demos">
-  <div class="container">
-    <span class="eyebrow"><span class="en">Live demos</span><span class="ar">تجارب حيّة</span></span>
-    <h2><span class="en">Bugs I fixed, as things you can poke.</span><span class="ar">أخطاء أصلحتها، بشكل تقدر تجرّبه.</span></h2>
-    <p class="section-sub"><span class="en">Simplified illustrations of problems I solved in real apps. Press the buttons and switches.</span><span class="ar">رسوم توضيحية مبسّطة لمشاكل حللتها في تطبيقات حقيقية. جرّب الأزرار والمفاتيح.</span></p>
-
-    <div class="tabs" role="tablist">
-      <button class="tab" role="tab" aria-selected="true" data-tab="a"><span class="en">Stale responses</span><span class="ar">ردود قديمة</span></button>
-      <button class="tab" role="tab" aria-selected="false" data-tab="b"><span class="en">Offline messages</span><span class="ar">رسائل دون إنترنت</span></button>
-      <button class="tab" role="tab" aria-selected="false" data-tab="c"><span class="en">Order scanning</span><span class="ar">مسح الطلبات</span></button>
-    </div>
-
-    <!-- A: stale responses -->
-    <div class="demo on" id="demo-a" role="tabpanel">
-      <div>
-        <h3><span class="en">When an old answer arrives late</span><span class="ar">حين يصل الرد القديم متأخراً</span></h3>
-        <p><span class="en">A rider changes the destination quickly. Two requests go out: the first is slow, the second is fast. Without a guard, the slow answer lands last and overwrites the screen with the wrong place.</span><span class="ar">يغيّر الراكب الوجهة بسرعة، فيخرج طلبان: الأول بطيء والثاني سريع. بدون حماية يصل الرد البطيء أخيراً ويكتب فوق الشاشة مكاناً خاطئاً.</span></p>
-        <ul class="facts">
-          <li><b><span class="en">Problem</span><span class="ar">المشكلة</span></b><span><span class="en">Responses finish in a different order than they were sent.</span><span class="ar">الردود تنتهي بترتيب مختلف عن ترتيب إرسالها.</span></span></li>
-          <li><b><span class="en">Fix</span><span class="ar">الحل</span></b><span><span class="en">Only the latest request is allowed to update the screen.</span><span class="ar">يُسمح لآخر طلب فقط بتحديث الشاشة.</span></span></li>
-          <li><b><span class="en">Proof</span><span class="ar">الإثبات</span></b><span><span class="en">Automated tests that replay requests in the wrong order.</span><span class="ar">اختبارات آلية تعيد الطلبات بترتيب خاطئ.</span></span></li>
-        </ul>
-      </div>
-      <div class="lab">
-        <div class="row-ctl">
-          <label class="switch"><input type="checkbox" id="guard"><span class="knob"></span><span><span class="en">Latest-request guard</span><span class="ar">حماية آخر طلب</span></span></label>
-          <button class="mini" id="replay-a" type="button"><span class="en">Replay</span><span class="ar">إعادة</span> ↻</button>
-        </div>
-        <div class="lane"><small><span><span class="en">Request 1 · "Giza" (slow)</span><span class="ar">الطلب 1 · "الجيزة" (بطيء)</span></span><span class="state" id="st1"></span></small><div class="bar slow" id="bar1"><i></i></div></div>
-        <div class="lane"><small><span><span class="en">Request 2 · "Cairo" (fast)</span><span class="ar">الطلب 2 · "القاهرة" (سريع)</span></span><span class="state" id="st2"></span></small><div class="bar" id="bar2"><i></i></div></div>
-        <div class="screen"><div class="eyebrow"><span class="en">Screen shows</span><span class="ar">الشاشة تعرض</span></div><div class="big" id="scr">—</div><span class="badge idle" id="scr-b">…</span></div>
-      </div>
-    </div>
-
-    <!-- B: offline outbox -->
-    <div class="demo" id="demo-b" role="tabpanel">
-      <div>
-        <h3><span class="en">Messages that survive a bad connection</span><span class="ar">رسائل تصمد أمام اتصال ضعيف</span></h3>
-        <p><span class="en">Turn the connection off and send messages. They wait in a local outbox and go out automatically, with a retry, when the connection comes back.</span><span class="ar">اقفل الاتصال وأرسل رسائل. تنتظر في صندوق إرسال محلي وتخرج تلقائياً مع إعادة محاولة عند عودة الاتصال.</span></p>
-        <ul class="facts">
-          <li><b><span class="en">Problem</span><span class="ar">المشكلة</span></b><span><span class="en">Messages typed offline must not be lost.</span><span class="ar">الرسائل المكتوبة دون إنترنت يجب ألا تضيع.</span></span></li>
-          <li><b><span class="en">Fix</span><span class="ar">الحل</span></b><span><span class="en">Local history, an outbox, automatic retry and sync on reconnect.</span><span class="ar">سجل محلي وصندوق إرسال وإعادة محاولة تلقائية ومزامنة عند الاتصال.</span></span></li>
-          <li><b><span class="en">Result</span><span class="ar">النتيجة</span></b><span><span class="en">Users always see the state of each message.</span><span class="ar">يرى المستخدم دائماً حالة كل رسالة.</span></span></li>
-        </ul>
-      </div>
-      <div class="lab">
-        <div class="row-ctl">
-          <label class="switch"><input type="checkbox" id="wifi" checked><span class="knob"></span><span><span class="en">Connection</span><span class="ar">الاتصال</span></span></label>
-          <span class="net on" id="net">online</span>
-        </div>
-        <div class="chat" id="chat"></div>
-        <form class="compose" id="compose">
-          <input id="msg-in" type="text" autocomplete="off" maxlength="60" aria-label="Message">
-          <button class="mini" type="submit"><span class="en">Send</span><span class="ar">إرسال</span></button>
-        </form>
-      </div>
-    </div>
-
-    <!-- C: scanning -->
-    <div class="demo" id="demo-c" role="tabpanel">
-      <div>
-        <h3><span class="en">Scan twice, deliver once</span><span class="ar">مسح مرتين، تسليم مرة</span></h3>
-        <p><span class="en">An internal operations app checks every order at two points: when it is prepared and when it is handed over. Try to skip a step or scan the wrong code.</span><span class="ar">تطبيق عمليات داخلي يتحقق من كل طلب في نقطتين: عند التحضير وعند التسليم. جرّب تخطي خطوة أو مسح كود خاطئ.</span></p>
-        <ul class="facts">
-          <li><b><span class="en">Problem</span><span class="ar">المشكلة</span></b><span><span class="en">Orders need an accurate check before handover.</span><span class="ar">الطلبات تحتاج تحققاً دقيقاً قبل التسليم.</span></span></li>
-          <li><b><span class="en">Fix</span><span class="ar">الحل</span></b><span><span class="en">Scanning at preparation and at delivery confirmation, plus tracking.</span><span class="ar">مسح عند التحضير وعند تأكيد التسليم مع تتبع.</span></span></li>
-          <li><b><span class="en">Built with</span><span class="ar">مبني بـ</span></b><span>Flutter · Cubit · Clean Architecture</span></li>
-        </ul>
-      </div>
-      <div class="lab">
-        <div class="order"><span><span class="en">Order</span><span class="ar">طلب</span> <b>#1042</b></span><span><span class="en">Code</span><span class="ar">الكود</span> <b class="mail">ORD-1042</b></span></div>
-        <div class="steps">
-          <div class="step done" id="s1"><div class="dot">1</div><span class="en">Received</span><span class="ar">مستلم</span></div>
-          <div class="step" id="s2"><div class="dot">2</div><span class="en">Prepared</span><span class="ar">جاهز</span></div>
-          <div class="step" id="s3"><div class="dot">3</div><span class="en">Delivered</span><span class="ar">تم التسليم</span></div>
-        </div>
-        <div class="btns">
-          <button class="mini" id="c-prep" type="button"><span class="en">Scan at preparation</span><span class="ar">مسح عند التحضير</span></button>
-          <button class="mini warn" id="c-bad" type="button"><span class="en">Scan wrong code</span><span class="ar">مسح كود خاطئ</span></button>
-          <button class="mini" id="c-ok" type="button"><span class="en">Scan delivery code</span><span class="ar">مسح كود التسليم</span></button>
-          <button class="mini" id="c-reset" type="button"><span class="en">Reset</span><span class="ar">إعادة</span> ↻</button>
-        </div>
-        <div class="msg" id="c-msg"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="projects">
   <div class="container">
-    <h2><span class="en">Projects</span><span class="ar">مشاريعي</span></h2>
+    <span class="label"><span class="en">Projects</span><span class="ar">المشاريع</span></span><h2><span class="en">Projects</span><span class="ar">مشاريعي</span></h2>
     <p class="section-sub"><span class="en">Personal projects with public code.</span><span class="ar">مشاريع شخصية بكود مفتوح.</span></p>
     <div class="grid">
       <article class="card reveal">
@@ -397,17 +304,13 @@
 <!-- EXPERIENCE -->
 <section id="experience">
   <div class="container">
-    <span class="eyebrow"><span class="en">Experience</span><span class="ar">الخبرة</span></span>
+    <span class="label"><span class="en">Experience</span><span class="ar">الخبرة</span></span>
     <h2><span class="en">Where I have worked</span><span class="ar">أماكن عملت فيها</span></h2>
-    <div class="timeline" id="timeline">
-      <div class="tl-item reveal"><h3><span class="en">Flutter Developer</span><span class="ar">مطوّر Flutter</span> · Bishyaka</h3><div class="when"><span class="en">Jun 2025 – Present</span><span class="ar">يونيو 2025 – الآن</span></div>
-        <p><span class="en">Built an internal operations app with barcode scanning and a vendor management app, integrated Meta and Google services for product data, and customized a Laravel POS.</span><span class="ar">بنيت تطبيق عمليات داخلي بمسح الباركود وتطبيقاً لإدارة الموردين، وربطت بيانات المنتجات بخدمات Meta وGoogle، وعدّلت نظام نقاط بيع Laravel.</span></p></div>
-      <div class="tl-item reveal"><h3><span class="en">Freelance Flutter Developer</span><span class="ar">مطوّر Flutter (عمل حر)</span></h3><div class="when"><span class="en">Jul – Oct 2026</span><span class="ar">يوليو – أكتوبر 2026</span></div>
-        <p><span class="en">Built features and fixed production issues across several published apps, and added unit and regression tests.</span><span class="ar">طوّرت ميزات وأصلحت مشاكل إنتاج في عدة تطبيقات منشورة، وأضفت اختبارات وحدة وانحدار.</span></p></div>
-      <div class="tl-item reveal"><h3><span class="en">Flutter Developer</span><span class="ar">مطوّر Flutter</span> · SKP</h3><div class="when"><span class="en">Dec 2024 – Jun 2025</span><span class="ar">ديسمبر 2024 – يونيو 2025</span></div>
-        <p><span class="en">Built and maintained Flutter apps for Android and iOS, published to Google Play and the App Store.</span><span class="ar">بنيت وصنت تطبيقات Flutter لـ Android وiOS ونشرتها على Google Play وApp Store.</span></p></div>
-      <div class="tl-item reveal"><h3><span class="en">Java Developer</span><span class="ar">مطوّر Java</span> · Alpha Misr</h3><div class="when"><span class="en">Jun 2022 – Dec 2024</span><span class="ar">يونيو 2022 – ديسمبر 2024</span></div>
-        <p><span class="en">Developed and maintained Java applications with OOP, JDBC and SQL.</span><span class="ar">طوّرت وصنت تطبيقات Java باستخدام OOP وJDBC وSQL.</span></p></div>
+    <div class="timeline">
+      <div class="tl-item reveal"><div class="when"><span class="en">Jun 2025 – Present</span><span class="ar">يونيو 2025 – الآن</span></div><div><h3><span class="en">Flutter Developer</span><span class="ar">مطوّر Flutter</span> · Bishyaka</h3><p><span class="en">Built an internal operations app with barcode scanning and a vendor management app, integrated Meta and Google services for product data, and customized a Laravel POS.</span><span class="ar">بنيت تطبيق عمليات داخلي بمسح الباركود وتطبيقاً لإدارة الموردين، وربطت بيانات المنتجات بخدمات Meta وGoogle، وعدّلت نظام نقاط بيع Laravel.</span></p></div></div>
+      <div class="tl-item reveal"><div class="when"><span class="en">Jul – Oct 2026</span><span class="ar">يوليو – أكتوبر 2026</span></div><div><h3><span class="en">Freelance Flutter Developer</span><span class="ar">مطوّر Flutter (عمل حر)</span></h3><p><span class="en">Built features and fixed production issues across several published apps, and added unit and regression tests.</span><span class="ar">طوّرت ميزات وأصلحت مشاكل إنتاج في عدة تطبيقات منشورة، وأضفت اختبارات وحدة وانحدار.</span></p></div></div>
+      <div class="tl-item reveal"><div class="when"><span class="en">Dec 2024 – Jun 2025</span><span class="ar">ديسمبر 2024 – يونيو 2025</span></div><div><h3><span class="en">Flutter Developer</span><span class="ar">مطوّر Flutter</span> · SKP</h3><p><span class="en">Built and maintained Flutter apps for Android and iOS, published to Google Play and the App Store.</span><span class="ar">بنيت وصنت تطبيقات Flutter لـ Android وiOS ونشرتها على Google Play وApp Store.</span></p></div></div>
+      <div class="tl-item reveal"><div class="when"><span class="en">Jun 2022 – Dec 2024</span><span class="ar">يونيو 2022 – ديسمبر 2024</span></div><div><h3><span class="en">Java Developer</span><span class="ar">مطوّر Java</span> · Alpha Misr</h3><p><span class="en">Developed and maintained Java applications with OOP, JDBC and SQL.</span><span class="ar">طوّرت وصنت تطبيقات Java باستخدام OOP وJDBC وSQL.</span></p></div></div>
     </div>
   </div>
 </section>
@@ -415,7 +318,7 @@
 <!-- SKILLS -->
 <section id="skills">
   <div class="container">
-    <span class="eyebrow"><span class="en">Skills</span><span class="ar">المهارات</span></span>
+    <span class="label"><span class="en">Skills</span><span class="ar">المهارات</span></span>
     <h2><span class="en">Tools I work with</span><span class="ar">أدوات أعمل بها</span></h2>
     <div class="skills">
       <div class="reveal"><h3><span class="en">Mobile</span><span class="ar">الموبايل</span></h3><div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">Cubit / BLoC</span><span class="chip">Provider / Riverpod</span><span class="chip">MVVM</span><span class="chip">Localization / RTL</span></div></div>
@@ -427,17 +330,16 @@
 </section>
 
 <!-- CONTACT -->
-<section id="contact">
+<section id="contact" class="contact">
   <div class="container">
-    <div class="contact-card reveal">
-      <h2><span class="en">Let's build something solid.</span><span class="ar">لنبنِ شيئاً متيناً.</span></h2>
-      <p><span class="en">Email works best. I reply as soon as I can.</span><span class="ar">البريد الإلكتروني هو الأفضل، وأرد بأسرع وقت.</span></p>
-      <div class="contact-links">
-        <a class="btn primary mail" href="mailto:mohamedmohsen8901@gmail.com">mohamedmohsen8901@gmail.com</a>
-        <button class="btn" id="copy-mail" type="button"><span class="en">Copy email</span><span class="ar">نسخ الإيميل</span></button>
-        <a class="btn" href="https://www.linkedin.com/in/mohamed-mohsen-6881082a6" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn" href="https://github.com/mohamedmohsen-dev" target="_blank" rel="noopener">GitHub</a>
-      </div>
+    <span class="label"><span class="en">Contact</span><span class="ar">تواصل</span></span>
+    <h2 class="reveal"><span class="en">Let's build something solid.</span><span class="ar">لنبنِ شيئاً متيناً.</span></h2>
+    <p class="reveal" style="--i:1"><span class="en">Email works best. I reply as soon as I can.</span><span class="ar">البريد الإلكتروني هو الأفضل، وأرد بأسرع وقت.</span></p>
+    <a class="mailbig reveal" style="--i:2" href="mailto:mohamedmohsen8901@gmail.com">mohamedmohsen8901@gmail.com</a>
+    <div class="contact-links">
+      <button class="btn" id="copy-mail" type="button"><span class="en">Copy email</span><span class="ar">نسخ الإيميل</span></button>
+      <a class="btn" href="https://www.linkedin.com/in/mohamed-mohsen-6881082a6" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/mohamedmohsen-dev" target="_blank" rel="noopener">GitHub</a>
     </div>
   </div>
 </section>
